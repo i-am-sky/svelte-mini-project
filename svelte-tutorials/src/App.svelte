@@ -9,11 +9,8 @@
   import SyncStates from "./components/derived/sync-states.svelte";
   import TemperatureConverter from "./components/derived/temperature-converter.svelte";
   import Drag from "./components/draggable/drag.svelte";
-  import DragAndDropFinal from "./components/POC/drag-and-drop/drag-and-drop-final.svelte";
-  import DragAndDrop from "./components/POC/drag-and-drop/drag-and-drop-final.svelte";
   import DragDropStackable from "./components/POC/drag-and-drop/drag-drop-stackable.svelte";
   import DragNDrop from "./components/POC/drag-and-drop/drag-n-drop.svelte";
-  import DragNDrop2 from "./components/POC/drag-and-drop/drag-n-drop2.svelte";
   import DisplayMouse from "./components/props/display-mouse.svelte";
   import SlowAndFast from "./components/ruins/slow-and-fast.svelte";
   import Counter from "./components/universal-reactivity/counter.svelte";
@@ -22,5 +19,5 @@
 
 <main>
   <!-- <DragAndDropFinal /> -->
-   <DragNDrop/>
+  <DragNDrop />
 </main>
