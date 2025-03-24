@@ -1,5 +1,8 @@
-<script >
+<script>
+  import { get } from "svelte/store";
+  import { getData, getAnotherData } from "./sample";
   const { text, onclick, disabled, title } = $props();
+
 </script>
 
 <button class="button" {onclick} {disabled} {title}>

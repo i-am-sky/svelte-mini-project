@@ -32,6 +32,8 @@
 
   $inspect(posts[currentIndex]);
 
+  
+
   const updateButtonState = (): void => {
     isPrevDisabled = currentIndex <= 0;
     isNextDisabled = currentIndex >= posts.length - 1;
